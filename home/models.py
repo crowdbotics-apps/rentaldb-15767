@@ -13,11 +13,11 @@ class CustomText(models.Model):
 
     @property
     def api(self):
-        return f'/api/v1/customtext/{self.id}/'
+        return f"/api/v1/customtext/{self.id}/"
 
     @property
     def field(self):
-        return 'title'
+        return "title"
 
 
 class HomePage(models.Model):
@@ -25,8 +25,8 @@ class HomePage(models.Model):
 
     @property
     def api(self):
-        return f'/api/v1/homepage/{self.id}/'
+        return f"/api/v1/homepage/{self.id}/"
 
     @property
     def field(self):
-        return 'body'
+        return "body"
